@@ -7,5 +7,7 @@
 int main() {
 
   printf("%d\n", strlen("c:\test\121"));
+  // 转义字符，Windows路径
+  printf("%s\n", "D:\\Documents");
   return 0;
 }
