@@ -3,10 +3,9 @@
 //
 #include <stdio.h>
 int main() {
-  int a = 10;
-  int b = a++; //  b = a,a = a + 1;
+  double a = 3.74;
+  printf("%f\n", a);
+  int b = (int)a;
   printf("%d\n", b);
-  printf("%d\n", a);
-
   return 0;
 }
