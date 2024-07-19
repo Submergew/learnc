@@ -8,19 +8,19 @@ int main() {
   scanf("%d", &day);
   switch (day) {
   case 1:
-    printf("星期一\n");
+    printf("Monday\n");
   case 2:
-    printf("星期二\n");
+    printf("Tuesday\n");
   case 3:
-    printf("星期三\n");
+    printf("Wednesday\n");
   case 4:
-    printf("星期四\n");
+    printf("Thursday\n");
   case 5:
-    printf("星期五\n");
+    printf("Friday\n");
   case 6:
-    printf("星期六\n");
+    printf("Saturday\n");
   case 7:
-    printf("星期日\n");
+    printf("Sunday\n");
   }
   return 0;
 }
