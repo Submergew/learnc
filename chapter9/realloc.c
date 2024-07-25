@@ -16,5 +16,6 @@ int main() {
   printf("%s\n", tmp);
 
   strcat(tmp, "world");
+  printf("%s\n", tmp);
   return 0;
 }
