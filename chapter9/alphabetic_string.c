@@ -7,8 +7,9 @@ int main() {
 
   char *p = "hello";
   int i;
-  for (i = 0; i < 6; i++)
+  for (i = 0; i < 6; i++) {
     printf("%d ", p[i]); //*(p+i)
+  }
   printf("\n");
   printf("%d\n", sizeof("hello"));
 

@@ -8,7 +8,7 @@ int main() {
   char a[4];
   char b[4];
 
-  strcpy(b, "hello");
+  strcpy_s(b, "hello");
 
   printf("b: %s\n", b);
   printf("a: %s\n", a);

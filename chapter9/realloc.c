@@ -8,14 +8,14 @@
 int main() {
   char *tmp;
   tmp = (char *)malloc(10);
-  strcpy(tmp, "hellow");
+  strcpy_s(tmp, "hellow");
 
   printf("%p\n", tmp);
   tmp = realloc(tmp, 10 + 10);
   printf("%p\n", tmp);
   printf("%s\n", tmp);
 
-  strcat(tmp, "world");
+  strcat_s(tmp, "world");
   printf("%s\n", tmp);
   return 0;
 }
