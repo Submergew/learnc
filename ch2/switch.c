@@ -5,7 +5,7 @@
 #include <stdio.h>
 int main() {
   int day = 0;
-  scanf("%d", &day);
+  scanf_s("%d", &day);
   switch (day) {
   case 1:
     printf("Monday\n");
