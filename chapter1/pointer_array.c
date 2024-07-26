@@ -8,7 +8,7 @@ int main() {
   for (i = 0; i < 4; i++)
     ;
   {
-    scanf_s("%d", &a[i]);
+    scanf("%d", &a[i]);
     getchar();
   }
   for (i = 0; i < 4; i++)
