@@ -15,7 +15,7 @@ char *func2() {
   char *p = "zhangsan lisi wangwu zhaoliu";
 
   p = (char *)malloc(50); // 在堆上申请空间
-  strcpy_s(p, "zhangsan lisi wangwu zhaoliu");
+  strcpy(p, "zhangsan lisi wangwu zhaoliu");
   return p; // 返回p的值 返回了p所指向的空间的首地址
 }
 int main() {

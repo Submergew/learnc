@@ -14,7 +14,7 @@ void Test(void) {
     printf("Memory allocation failed.\n");
     return;
   }
-  strcpy_s(str, "hello world"); // 现在 str 指向有效的内存
+  strcpy(str, "hello world"); // 现在 str 指向有效的内存
   printf("%s\n", str);
 
   free(str); // 释放分配的内存
