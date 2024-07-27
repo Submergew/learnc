@@ -7,7 +7,7 @@ int main() {
   char x;
   int y = 0;
 
-  scanf_s("%s", &x);
+  scanf("%s", &x);
   if (x < 0) {
     y = 1;
   } else if (x == 0) {
